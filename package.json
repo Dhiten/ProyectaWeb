@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Proyecto en NPM para el sitio web y webapp de proyecto",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "dev": "webpack serve --open --mode development",
     "build": "webpack --mode production",
